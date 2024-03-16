@@ -1,0 +1,24 @@
+{
+	"name": "jz-validate",
+	"version": "1.0.0",
+	"description": "提供一些常用的正则表达式校验",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nobugsss/jz-validate.git"
+	},
+	"keywords": [
+		"validate",
+		"常用正则",
+		"校验"
+	],
+	"author": "nobugsss",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nobugsss/jz-validate/issues"
+	},
+	"homepage": "https://github.com/nobugsss/jz-validate#readme"
+}
