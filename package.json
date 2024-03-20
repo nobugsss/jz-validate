@@ -1,6 +1,6 @@
 {
 	"name": "jz-validate",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "提供一些常用的正则表达式校验",
 	"main": "src/index.js",
 	"scripts": {
