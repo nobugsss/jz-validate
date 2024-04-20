@@ -28,10 +28,22 @@ export const number = {
 	errMsg: "数字不合法"
 };
 
+export const chinese = {
+	rule: /^[\u4e00-\u9fa5]{0,}$/,
+	errMsg: "只能输入中文"
+};
+
+export const money = {
+	rule: /^[0-9]+(.[0-9]{1,2})?$/,
+	errMsg: "请正确填写斤呢"
+};
+
 export default {
 	mobile,
 	email,
 	password,
 	idcard,
-	number
+	number,
+	chinese,
+	money
 };
