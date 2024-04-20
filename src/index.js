@@ -35,7 +35,7 @@ export const chinese = {
 
 export const money = {
 	rule: /^[0-9]+(.[0-9]{1,2})?$/,
-	errMsg: "请正确填写斤呢"
+	errMsg: "请正确填写金额"
 };
 
 export default {
