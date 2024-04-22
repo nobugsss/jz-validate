@@ -38,6 +38,11 @@ export const money = {
 	errMsg: "请正确填写金额"
 };
 
+export const url = {
+	rule: /(http|https):\/\/([\w.]+\/?)\S*/,
+	errMsg: "请填写正确域名"
+};
+
 export default {
 	mobile,
 	email,
@@ -45,5 +50,6 @@ export default {
 	idcard,
 	number,
 	chinese,
-	money
+	money,
+	url
 };
