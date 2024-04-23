@@ -43,6 +43,11 @@ export const url = {
 	errMsg: "请填写正确域名"
 };
 
+export const int = {
+	rule: /^-?\d+$/,
+	errMsg: "只能输入整数"
+};
+
 export default {
 	mobile,
 	email,
@@ -51,5 +56,6 @@ export default {
 	number,
 	chinese,
 	money,
-	url
+	url,
+	int
 };
