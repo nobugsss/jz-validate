@@ -45,7 +45,7 @@ export const url = {
 
 export const int = {
 	rule: /^-?\d+$/,
-	errMsg: "只能输入整数"
+	errMsg: "请输入整数"
 };
 
 export default {
