@@ -30,7 +30,7 @@ export const number = {
 
 export const chinese = {
 	rule: /^[\u4e00-\u9fa5]{0,}$/,
-	errMsg: "只能输入中文"
+	errMsg: "请输入中文"
 };
 
 export const money = {
