@@ -4,7 +4,7 @@ export const mobile = {
 };
 
 export const code = {
-	rule: /^\d{6}$/,
+	rule: /^\d{4,6}$/,
 	errMsg: "验证码格式不正确"
 };
 
