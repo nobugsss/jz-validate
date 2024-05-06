@@ -24,7 +24,7 @@ export const idcard = {
 };
 
 export const number = {
-	rule: /^\d+(\.\d{0,10})?$/, // /^(\-)?\d+(\.\d{0,9})?$/
+	rule: /^\d+(\.\d{0,10})?$/, // /^(\-)?\d+(\.\d{0,9})?$/ 负数
 	errMsg: "数字不合法"
 };
 
